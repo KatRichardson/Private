@@ -15,8 +15,7 @@ class Header extends Component {
 
   			<div className="parent2">
   				<div className="test1"><i className="fa fa-user fa-2x"></i></div>
-  				<div className="test2"><i className="fa fa-graduation-cap fa-2x"></i></div>
- 				  <div className="test3"><i className="fa fa-code fa-2x"></i></div>
+  				<div className="test2"><i className="fa fa-picture-o fa-2x"></i></div>
   				<div className="test4"><i className="fa fa-envelope-o fa-2x"></i></div>
   				<div className="mask2"><i className="fa fa-home fa-3x"></i></div>
 			</div>
