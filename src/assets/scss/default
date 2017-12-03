@@ -45,22 +45,6 @@
     position:absolute;
 }
 
-.test3 {
-  	width:60%;
-  	height:60%;
- 	background-color:dimGray;
-  	border-radius:50%;
-  	position:absolute;
-  	color:white;
-  	text-align:center;
-  	line-height:70px;
-    top:25%;
-  	left:25%;
-  	z-index:19;
-  	transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    position:absolute;
-}
-
 .test4 {
   	width:60%;
   	height:60%;
