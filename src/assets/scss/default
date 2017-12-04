@@ -1,81 +1,30 @@
-.parent2 {
- 	top:15px;
-  	left:15px;
-  	position:fixed;
- 	display:block;
-  	width:100px;
-  	height:100px;
-  	background-color:transparent;
-  	border-radius:50%;
-  	z-index:20;
-  	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+.navbar {
+	list-style: none;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	margin-left: -10px;
+	margin-right: 10px;
+	margin-top: -10px;
+
+	li {
+		display: inline-block;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+
+		a {
+			color: black;
+
+			:hover {
+				color: #F1D4AF;
+			}
+		}
+	}
 }
 
-.test1 {
-  	width:60%;
-  	height:60%;
- 	background-color:dimGray;
-  	border-radius:50%;
-  	position:absolute;
-  	color:white;
-  	text-align:center;
-  	line-height:70px;
-    top:25%;
-  	left:25%;
-  	z-index:19;
-  	transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    position:absolute;
-}
-
-.test2 {
-  	width:60%;
-  	height:60%;
- 	background-color:dimGray;
-  	border-radius:50%;
-  	position:absolute;
-  	color:white;
-  	text-align:center;
-  	line-height:70px;
-    top:25%;
-  	left:25%;
-  	z-index:19;
-  	transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    position:absolute;
-}
-
-.test4 {
-  	width:60%;
-  	height:60%;
- 	background-color:dimGray;
-  	border-radius:50%;
-  	position:absolute;
-  	color:white;
-  	text-align:center;
-  	line-height:70px;
-    top:25%;
-  	left:25%;
-  	z-index:19;
-  	transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    position:absolute;
-}
-
-.mask2 {
-  top:15px;
-  left:15px;
-  width:100px;
-  height:100px;
-  background:darkSlateGray;
-  border-radius:50%;
-  position:absolute;
-  z-index:21;
-  color:white;
-  text-align:center;
-  line-height:120px;
-  cursor:pointer;
-  position:fixed;
-}
 
 /*Home Page*/
 
@@ -84,7 +33,6 @@
 		background-color: #F1D4AF;
 		width: 100%;
 		height: 800px;
-		margin-top: 10px;
 		margin-left: -10px;
 		padding: 10px;
 
@@ -100,6 +48,15 @@
 					margin-right: 7%;
 					margin-top: 300px;
 					width: 60%;
+				}
+
+				.Logo {
+					float: left;
+					display: block;
+					margin-top: 180px;
+					margin-left: 150px;
+					height: 150px;
+					width: auto;
 				}
 
 				p {
@@ -240,17 +197,18 @@
 		background-color: #fff;
 		background-image: url("background_picture.jpg");
 		margin-left: -10px;
+		margin-top: -10px;
 
 		h1 {
 			color: black;
 			text-align: center;
-			font: bold 30px Poiret one, cursive;
+			font: bold 50px Poiret one, cursive;
 			padding-top: 180px;
 		}
 	}
 
 	.mission {
-		height: 100px;
+		height: 120px;
 		width: 100%;
 
 		h3 {
@@ -263,6 +221,7 @@
 			color: black;
 			text-align: center;
 			font-family: Poiret one, cursive;
+			font-size: 22px;
 		}
 	}
 
@@ -274,7 +233,7 @@
 		h3 {
 			text-align: center;
 			float: right;
-			margin-right: 150px;
+			margin-right: 200px;
 			font-size: 30px;
 			background-color: #ECE5CE;
 			padding: 3px;
@@ -284,7 +243,8 @@
 		img {
 			float: left;
 			margin-top: 50px;
-			margin-left: 300px;
+			margin-left: 150px;
+			margin-right: 20px;
 			border-style: solid;
 			border-color: black;
 			border-width: 3px;
@@ -295,9 +255,10 @@
 		p {
 			color: black;
 			text-align: right;
-			margin-right: 300px;
-			padding-top: 100px;
+			margin-right: 200px;
+			padding-top: 120px;
 			font-family: Poiret one, cursive;
+			font-size: 22px;
 		}
 	}
 
@@ -317,11 +278,25 @@
 			width: 15%;
 		}
 
+		img {
+			float: right;
+			margin-top: 0px;
+			margin-right: 200px;
+			margin-left: 20px;
+			border-style: solid;
+			border-color: black;
+			border-width: 3px;
+			height: 500px;
+			width: auto;
+		}
+
 		p {
 			color: black;
-			text-align: center;
+			text-align: left;
 			font-family: Poiret one, cursive;
 			padding-top: 120px;
+			font-size: 22px;
+			margin-left: 150px;
 		}
 	}
 	
@@ -329,12 +304,12 @@
 
 		.heading {
 			position: relative;
-			height: 250px;
+			height: 200px;
 			width: auto;
 
 			h1 {
 				position: relative;
-				top: 190px;
+				top: 100px;
 				padding: 5px;
 				color: black;
 			}
@@ -353,7 +328,7 @@
 		margin-right: -25px;
 
 		img {
-			max-height: 500px;
+			max-height: 450px;
 			max-width: auto;
 			margin-left: 90px;
 		}
