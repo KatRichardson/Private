@@ -8,19 +8,18 @@ class Header extends Component {
     return (
       <header>
 
-	   	<head>
-        <script type="text/javascript" src="script.js"></script>
-  			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
-		  </head>
+	  <head>
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+	 </head>
 
-  			<div className="parent2">
-  				<div className="test1"><i className="fa fa-user fa-2x"></i></div>
-  				<div className="test2"><i className="fa fa-picture-o fa-2x"></i></div>
-  				<div className="test4"><i className="fa fa-envelope-o fa-2x"></i></div>
-  				<div className="mask2"><i className="fa fa-home fa-3x"></i></div>
-			</div>
+  		<ul className="navbar">
+          		<li><a href="/home"><i className="fa fa-home fa-3x"></i></a></li>
+  			<li><a href="/about"><i className="fa fa-user fa-2x"></i></a></li>
+  			<li><a href="/gallery"><i className="fa fa-picture-o fa-2x"></i></a></li>
+  			<li><a href="/contactMe"><i className="fa fa-envelope-o fa-2x"></i></a></li>
+		</ul>
 
-	   </header>
+	</header>
     );
   }
 }
