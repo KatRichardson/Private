@@ -45,7 +45,7 @@ class contactMe extends Component {
           E-mail:
             <input className="email" type="text" value={this.state.email}/><br />
           Message:
-            <input className="message" type="text" value={this.state.message}/><br />
+            <textarea className="message" type="text" value={this.state.message}/><br />
         </label>
         <input className="button" type="submit" value="Submit" />
       </form>
